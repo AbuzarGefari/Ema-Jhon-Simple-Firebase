@@ -1,0 +1,17 @@
+import { initializeApp } from "firebase/app";
+import firebaseConfig from "./firebase.config";
+
+const initializeAuthentication = () =>{
+    initializeApp(firebaseConfig)
+};
+
+export default initializeAuthentication;
+
+
+// steps for authentication 
+// Initial Setup
+// 1.firebase:create project
+// 2.create web app
+// 3.get configeratio
+// 4.initialize firebaseConfig
+// 5.Enable auth method 
